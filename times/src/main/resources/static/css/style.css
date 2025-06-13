@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+header{
+    height: 10vh;
+    width: 100vw;    
+    display: flex; 
+}
+.header{
+    width: 50vw;
+    height: 10vh;   
+    display: inline-flex;
+}
+.header.santos{
+    display: flex;
+    justify-content: flex-end;
+}
+.header.corinthians{
+    background-color: black;
+    color: white;
+}
+.nome.time{
+    font-size: 4vw;
+    padding: 0.7%;
+    margin: 0;
+}
+.nome.time.santos{
+    text-align: end;
+}
+.logo{
+    height: 8vh;
+    width: 7.5vh;
+    margin-top: 0;
+    padding: 1%;
+}
+.logo.santos{ 
+    width: 10vh;
+}
+.principal{
+    width: 100vw;
+    height: 90vh;
+    display: flex; 
+}
+.time{
+    width: 50vw;
+    height: 100vh;
+    display: inline-flex;
+}
+.titulares, .reservas{
+    width: 25vw;
+}
+.jogador{
+    width: 90%;
+    height: 6%;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-weight: 900;
+    font-size: 1.6vw;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid goldenrod;
+}
+.jogador.corinthians{
+    background: linear-gradient(to right, black, rgb(82, 82, 82));
+    color: whitesmoke;
+}
+.jogador.santos{
+    background: linear-gradient(to right, white, rgb(156, 156, 156));
+    color: black;
+}
+.numero, .nome, .posicao{
+    display: inline;
+    margin-right: 5%;
+}
+.numero{
+    float:left;
+}
+.posicao{
+    float: right;
+}
+#corinthians{
+    background: linear-gradient(black, white);
+}
+#santos{
+    background: linear-gradient(white, black);
+    float: right;
+}
