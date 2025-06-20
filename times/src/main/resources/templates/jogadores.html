@@ -21,15 +21,15 @@
         </div>
     </header>
     <div id="principal">
-        <div th:each="jogador : ${jogadores}" class="time" id="corinthians">
+        <div class="time" id="corinthians">
             <div class="titulares corinthians">
-                <div class="jogador corinthians">
-                    <div class="numero corinthians" th:text="${jogador.camisa}"></div>
-                    <div class="nome corinthians" th:text="${jogador.nome}"></div>
+                <div th:each="jogadorCorCol1 : ${corinthiansCol1}" class="jogador corinthians">
+                    <div class="numero corinthians" th:text="${jogadorCorCol1.camisa}"></div>
+                    <div class="nome corinthians" th:text="${jogadorCorCol1.nome}"></div>
                     <div class="posicao corinthians">GOL</div>
                 </div>
             </div>
-            <tr th:each="artista : ${artistas}">
+            <!--<tr th:each="artista : ${artistas}">
                 <td th:text="${artista.id}"></td>
                 <td th:text="${artista.nome}"></td>
                 <td th:text="${artista.estilo}"></td>
@@ -39,7 +39,7 @@
                         <button type="submit">Deletar</button>
                     </form>
                 </td>
-            </tr>
+            </tr>-->
             <div class="reservas corinthians">                
             </div>
             <div class="reservas corinthians">                

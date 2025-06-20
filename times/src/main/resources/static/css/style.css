@@ -53,17 +53,18 @@ header{
     display: inline-flex;
 }
 .titulares, .reservas{
-    width: 25vw;
+    width: 16.5vw;
+    padding-top: 1%;
 }
 .jogador{
     width: 90%;
-    height: 6%;
+    height: 5%;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-left: 5%;
     margin-top: 2%;
     font-weight: 900;
-    font-size: 1.6vw;  
+    font-size: 1.2vw;  
     display: flex;
     justify-content: center;
     align-items: center;
